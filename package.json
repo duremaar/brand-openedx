@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edly-io/brand-openedx.git"
+    "url": "git+https://github.com/duremaar/brand-openedx.git"
   },
   "author": "Open edX Community",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/edly-io/brand-openedx/issues"
+    "url": "https://github.com/duremaar/brand-openedx/issues"
   },
-  "homepage": "https://github.com/edly-io/brand-openedx#readme",
+  "homepage": "https://github.com/duremaar/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
   },
