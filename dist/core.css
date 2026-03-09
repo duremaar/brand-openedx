@@ -1245,6 +1245,94 @@
   src: url('roboto-mono-v31-cyrillic_latin-700italic.woff2') format('woff2'); // Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 } 
 */
+#looking-for-challenge-widget {
+  visibility: collapse;
+}
+#form-field1 {
+  height: 37px;
+}
+.btn-outline-primary {
+  border-color: rgb(59, 175, 178);
+  color: rgb(59, 175, 178);
+  height: 37px;
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn-outline-primary:not(:disabled, .disabled):active {
+  border-color: #268183;
+  color: #268183;
+}
+.btn-outline-primary:active {
+  border-color: #268183;
+  color: #268183;
+}
+.btn-outline-primary:focus {
+  border: 2px solid #268183;
+}
+.btn-outline-primary:hover {
+  border-color: #268183;
+  color: #268183;
+}
+.btn-outline-primary:disabled {
+  border-color: rgb(59, 175, 178);
+  color: rgb(59, 175, 178);
+}
+.nav-link.active {
+  background: rgb(59, 175, 178);
+  background-color: rgb(59, 175, 178);
+}
+.nav-link:hover {
+  background: #268183;
+  background-color: #268183;
+}
+input.form-field1 {
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  font-size: 14px;
+}
+a.dropdown-item {
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 700;
+}
+a.dropdown-item:hover {
+  background: rgb(59, 175, 178);
+}
+label.pgn__form-control-floating-label-text {
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  font-size: 14px;
+  color: #555;
+}
+.pgn__icon {
+  visibility: visible;
+}
+#masquerade-form-label {
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  visibility: hidden;
+}
+#masquerade-form-label::before {
+  font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+  content: "Просмотр от имени пользователя:";
+  visibility: visible;
+}
+button.discovery-submit, a.sign-in-btn {
+  background: #3db0b4;
+}
 body, .text-monospace, * {
   font-family: "Roboto", sans-serif !important;
   -webkit-font-smoothing: antialiased;
