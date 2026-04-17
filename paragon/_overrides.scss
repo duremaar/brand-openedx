@@ -6,7 +6,7 @@
     height: 37px;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .btn-outline-secondary {
     border-color:rgb(59, 175, 178);
     color:rgb(59, 175, 178);
     height: 37px;
@@ -20,26 +20,32 @@
 }
 
 
-.btn-outline-primary:not(:disabled, .disabled):active {
+.btn-outline-primary:not(:disabled, .disabled):active,
+.btn-outline-secondary:not(:disabled, .disabled):active {
     border-color:#268183;
     color:#268183;
 }
 
-.btn-outline-primary:active { //probably useless
+//probably this is useless
+.btn-outline-primary:active,
+.btn-outline-secondary:active { 
     border-color:#268183;
     color:#268183;
 }
 
-.btn-outline-primary:focus {
+.btn-outline-primary:focus,
+.btn-outline-secondary:focus {
     border: 2px solid #268183;
 }
 
+.btn-outline-primary:hover,
 .btn-outline-primary:hover {
     border-color:#268183;
     color:#268183;
 }
 
-.btn-outline-primary:disabled {
+.btn-outline-primary:disabled, 
+.btn-outline-secondary:disabled {
     border-color:rgb(59, 175, 178);
     color:rgb(59, 175, 178);
 }
