@@ -1,6 +1,15 @@
-#root header .logo {
-    height: 60px;
+img.logo-image {
+	height: 60px !important;
+	width:  60px !important;
+
 }
+
+#root header.logo {
+    height: 60px !important;
+    width:  60px !important;
+}
+
+
 
 #looking-for-challenge-widget {
         visibility: collapse;  
