@@ -1245,6 +1245,10 @@
   src: url('roboto-mono-v31-cyrillic_latin-700italic.woff2') format('woff2'); // Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+
 } 
 */
+a.logo {
+  height: 60px;
+  width: 60px;
+}
 #looking-for-challenge-widget {
   visibility: collapse;
 }
