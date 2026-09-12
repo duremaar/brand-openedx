@@ -1249,16 +1249,16 @@ img.logo {
   height: 60px !important;
   width: 60px !important;
 }
+img.logo-image {
+  height: 60px !important;
+  width: 60px !important;
+}
 div.header-logo a {
   height: 60px !important;
   width: 60px !important;
   margin-top: 0px !important;
 }
-img.logo-image {
-  height: 60px !important;
-  width: 60px !important;
-}
-#root header.logo {
+#root header .logo {
   height: 60px !important;
   width: 60px !important;
 }

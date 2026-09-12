@@ -1,7 +1,12 @@
 //2026-09-11 logo increased to 60*60
 img.logo {
     height: 60px !important;
-    width: 60px !important;
+    width:  60px !important;
+}
+
+img.logo-image {
+	height: 60px !important;
+	width:  60px !important;
 }
 
 div.header-logo a {
@@ -10,22 +15,11 @@ div.header-logo a {
     margin-top: 0px !important;
 }
 
-img.logo-image {
-	height: 60px !important;
-	width:  60px !important;
-
-}
-
-img.logo-image {
-	height: 60px !important;
-	width:  60px !important;
-
-}
-
-#root header.logo {
+#root header .logo {
     height: 60px !important;
     width:  60px !important;
 }
+
 //---
 
 #looking-for-challenge-widget {
